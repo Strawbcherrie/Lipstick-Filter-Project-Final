@@ -25,7 +25,7 @@ function ModelLoaded(){
 
 function draw(){
     image(video, 0, 0, 400, 300);
-    image(lipstick_filter, nosex, nosey, 40, 30);
+    image(lipstick_filter, nosex - 5, nosey + 30, 40, 30);
 }
 
 function download(){
